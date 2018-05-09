@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ships
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+        xmlns="http://www.example.com/Ships">
+
+    <ship>
+        <shipNum>1</shipNum>
+        <containersCount>20</containersCount>
+        <operation>CONTAINER_UNLOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>2</shipNum>
+        <containersCount>20</containersCount>
+        <operation>CONTAINER_UNLOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>3</shipNum>
+        <containersCount>30</containersCount>
+        <operation>CONTAINER_LOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>4</shipNum>
+        <containersCount>25</containersCount>
+        <operation>CONTAINER_UNLOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>5</shipNum>
+        <containersCount>25</containersCount>
+        <operation>CONTAINER_UNLOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>6</shipNum>
+        <containersCount>25</containersCount>
+        <operation>CONTAINER_UNLOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>7</shipNum>
+        <containersCount>25</containersCount>
+        <operation>CONTAINER_UNLOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>8</shipNum>
+        <containersCount>25</containersCount>
+        <operation>CONTAINER_LOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>9</shipNum>
+        <containersCount>25</containersCount>
+        <operation>CONTAINER_LOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>10</shipNum>
+        <containersCount>25</containersCount>
+        <operation>CONTAINER_LOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>11</shipNum>
+        <containersCount>25</containersCount>
+        <operation>CONTAINER_LOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>12</shipNum>
+        <containersCount>25</containersCount>
+        <operation>CONTAINER_LOAD</operation>
+    </ship>
+
+    <ship>
+        <shipNum>13</shipNum>
+        <containersCount>20</containersCount>
+        <operation>CONTAINER_UNLOAD</operation>
+    </ship>
+
+</ships>
