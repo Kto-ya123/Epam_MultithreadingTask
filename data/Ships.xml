@@ -8,78 +8,104 @@
         <shipNum>1</shipNum>
         <containersCount>20</containersCount>
         <operation>CONTAINER_UNLOAD</operation>
+        <priority>5</priority>
+        <importance>5</importance>
     </ship>
 
     <ship>
         <shipNum>2</shipNum>
         <containersCount>20</containersCount>
         <operation>CONTAINER_UNLOAD</operation>
+        <priority>1</priority>
+        <importance>5</importance>
     </ship>
 
     <ship>
         <shipNum>3</shipNum>
         <containersCount>30</containersCount>
         <operation>CONTAINER_LOAD</operation>
+        <priority>4</priority>
+        <importance>5</importance>
     </ship>
 
     <ship>
         <shipNum>4</shipNum>
         <containersCount>25</containersCount>
         <operation>CONTAINER_UNLOAD</operation>
+        <priority>5</priority>
+        <importance>3</importance>
     </ship>
 
     <ship>
         <shipNum>5</shipNum>
         <containersCount>25</containersCount>
         <operation>CONTAINER_UNLOAD</operation>
+        <priority>2</priority>
+        <importance>5</importance>
     </ship>
 
     <ship>
         <shipNum>6</shipNum>
         <containersCount>25</containersCount>
         <operation>CONTAINER_UNLOAD</operation>
+        <priority>5</priority>
+        <importance>3</importance>
     </ship>
 
     <ship>
         <shipNum>7</shipNum>
         <containersCount>25</containersCount>
         <operation>CONTAINER_UNLOAD</operation>
+        <priority>4</priority>
+        <importance>4</importance>
     </ship>
 
     <ship>
         <shipNum>8</shipNum>
         <containersCount>25</containersCount>
         <operation>CONTAINER_LOAD</operation>
+        <priority>3</priority>
+        <importance>3</importance>
     </ship>
 
     <ship>
         <shipNum>9</shipNum>
         <containersCount>25</containersCount>
         <operation>CONTAINER_LOAD</operation>
+        <priority>2</priority>
+        <importance>2</importance>
     </ship>
 
     <ship>
         <shipNum>10</shipNum>
         <containersCount>25</containersCount>
         <operation>CONTAINER_LOAD</operation>
+        <priority>1</priority>
+        <importance>1</importance>
     </ship>
 
     <ship>
         <shipNum>11</shipNum>
         <containersCount>25</containersCount>
         <operation>CONTAINER_LOAD</operation>
+        <priority>4</priority>
+        <importance>2</importance>
     </ship>
 
     <ship>
         <shipNum>12</shipNum>
         <containersCount>25</containersCount>
         <operation>CONTAINER_LOAD</operation>
+        <priority>1</priority>
+        <importance>4</importance>
     </ship>
 
     <ship>
         <shipNum>13</shipNum>
         <containersCount>20</containersCount>
         <operation>CONTAINER_UNLOAD</operation>
+        <priority>4</priority>
+        <importance>2</importance>
     </ship>
 
 </ships>

@@ -1,11 +1,12 @@
-package src.yan.epam.task4.main;
+package task4.main;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import src.yan.epam.task4.creation.DOMParser;
-import src.yan.epam.task4.exception.XmlBuilderException;
-import src.yan.epam.task4.port.Ship;
+import task4.creation.DOMParser;
+import task4.exception.XmlBuilderException;
+import task4.port.Ship;
+
 import java.util.Deque;
 
 public class Main
@@ -27,7 +28,7 @@ public class Main
         }
         catch (XmlBuilderException ex)
         {
-            LOGGER.log(Level.INFO, ex);
+            LOGGER.log(Level.ERROR, ex);
         }
     }
 

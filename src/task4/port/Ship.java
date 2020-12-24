@@ -1,11 +1,9 @@
-package src.yan.epam.task4.port;
+package task4.port;
 
 import org.apache.logging.log4j.Level;
-import src.yan.epam.task4.exception.ThreadTimeOutException;
-import src.yan.epam.task4.singleton.SeaPort;
-import src.yan.epam.task4.singleton.SeaPortSingleton;
-
-import java.util.concurrent.TimeUnit;
+import task4.exception.ThreadTimeOutException;
+import task4.singleton.SeaPort;
+import task4.singleton.SeaPortSingleton;
 
 import static src.yan.epam.task4.main.Main.LOGGER;
 
@@ -53,7 +51,7 @@ public class Ship extends Thread
     }
 
     private void swim() throws InterruptedException {
-        TimeUnit.SECONDS.sleep(5 - this.importance);
+        Thread.sleep(5000 - (this.importance * 1000));
     }
 
 }

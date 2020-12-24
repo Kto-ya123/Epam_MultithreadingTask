@@ -1,11 +1,13 @@
-package src.yan.epam.task4.creation;
+package task4.creation;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-import src.yan.epam.task4.port.Ship;
+import task4.exception.XmlBuilderException;
+import task4.port.Ship;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -13,7 +15,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayDeque;
 import java.util.Deque;
-import src.yan.epam.task4.exception.XmlBuilderException;
 
 
 public class DOMParser
